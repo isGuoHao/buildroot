@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Buildroot -g70a8fa6eac-dirty Configuration
+# Buildroot 2024.05-638-g12263900a8 Configuration
 #
 BR2_HAVE_DOT_CONFIG=y
 BR2_HOST_GCC_AT_LEAST_4_9=y
@@ -512,7 +512,7 @@ BR2_LINUX_KERNEL_LATEST_VERSION=y
 # BR2_LINUX_KERNEL_CUSTOM_HG is not set
 # BR2_LINUX_KERNEL_CUSTOM_SVN is not set
 BR2_LINUX_KERNEL_VERSION="6.9.8"
-BR2_LINUX_KERNEL_PATCH=""
+BR2_LINUX_KERNEL_PATCH="$(TOPDIR)/board/freescale/imx6ullevk/linux/patches"
 BR2_LINUX_KERNEL_USE_DEFCONFIG=y
 # BR2_LINUX_KERNEL_USE_ARCH_DEFAULT_CONFIG is not set
 # BR2_LINUX_KERNEL_USE_CUSTOM_CONFIG is not set
